@@ -1,0 +1,110 @@
+@import "mafs/core.css";
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(3, 31, 39);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.FixedPtDesc{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h1{
+  text-align: center;
+  color:rgba(20, 207, 82, 0.808); 
+}
+
+h3{
+  color:rgba(20, 207, 82, 0.808); 
+  
+}
+
+p{
+  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+
+
+}
+
+label{
+  color: white;
+}
+
+#title{
+  text-align: center;
+  color:rgba(20, 207, 82, 0.808); 
+}
+
+.Information{
+  position: absolute;
+  top: 15%; 
+  right: 15%;
+}
+
+.plot{
+
+  display: flex;
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  
+}
+
+label,input{
+  display:flex;
+  flex-direction:column;
+}
+
+.iterSlider{
+  padding-right: 58%;
+  padding-left:  44%;
+  float: top
+}
+
+#slider_info{
+  display: inline-block;
+  width: 140px;
+  text-align: right
+
+
+}
+
+input[type=text] {
+  border: none;
+  padding-top: 10px;
+  border-bottom: 2px solid red;
+  background-color: rgb(9, 58, 73);
+  border-radius: 4px;
+  color: white;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: rgba(20, 207, 82, 0.808);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: "Computer Modern Serif", sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.form_entry{
+  padding-left: 15%;
+  padding-top: 3%;
+  position: sticky;
+}
+
+
+
